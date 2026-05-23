@@ -3,14 +3,12 @@
 <html>
 <!--Links the external css file to style the page.-->
 <head>
-     <link rel="stylesheet" href="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Shared.css">
-    <link rel="stylesheet" href="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\MedicalWebsite.css">
+     <link rel="stylesheet" href="Shared.css">
+    <link rel="stylesheet" href="MedicalWebsite.css">
+    <title>Naosu Healthcare Plus Home</title>
 </head>
 
-<header>
-<title>Naosu Healthcare Plus Home</title>
-</header>
-
+<body>
 <header class="Top-bar">
 <section>
 <img src="NaosuLogo1.png" id="NaosuLogo" >    
@@ -25,43 +23,49 @@
 </section>
 </header>
 
-<body>
+
 
 <section class="HeadingSection">
+<!--Adding an autoplaying muted video that plays on loop-->
 <video  autoplay muted loop >
   <source src="FirstVideo.mp4" type="video/mp4">
 </video>
 <h1 class="Heading">GET THE BEST CARE NOW</h1>
 </section>
-
+<!--Adding an audio with playback and playing controls-->
 <audio controls>
 <source src="WelcomeAudio.mp4" type="audio/mpeg">
 </audio>
 
 <section class="MiddleSection">
 <h2>SPECIALITIES</h2>
+<!--Linking the cardiology webpage to ther cardiology image-->
 <a href="Cardiology.html">
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Cardiology.png" id="Cardiology" ></a>  
+<img src="Cardiology.png" id="Cardiology" ></a>  
 
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Dentistry.png" id="Dentistry" >
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Dermatology.png" id="Dermatology" >
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Neurology.png" id="Neurology" >
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\Psychiatry.png" id="Psychiatry" >
+<img src="Dentistry.png" id="Dentistry" >
+<img src="Dermatology.png" id="Dermatology" >
+<img src="Neurology.png" id="Neurology" >
+<img src="Psychiatry.png" id="Psychiatry" >
+
 <h2>BLOG POSTS</h2>
+<!--Grouping the blog posts and form togetther-->
 <div class=BlogandForm>
 <div class="BLOG1">
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\BlogPost1.png" id="BlogPost1" >
+<img src="BlogPost1.png" id="BlogPost1" >
 <p>PROTECT YOUR CHILDREN FROM VIRUSES</p>
 </div>
 <div class="BLOG1">
-<img src="C:\Users\dell\OneDrive\Dokumente\GitHub\WP_SA2\Webproggaming_SA2\BlogPost2.png" id="BlogPost2" >
+<img src="BlogPost2.png" id="BlogPost2" >
 <p> HOW TO PERFORM A BREAST SELF-EXAM</p>
 </div>
+<!--Creating a form to search for preferred branch-->
 <form>
    <h3>FIND A CLINIC</h3>
 
     <label>Location</label>
     <input type="text" placeholder="Enter Your Preferred Location" list="locations"><br>
+    <!--Adding a datalist to show available options-->
     <datalist id="locations">
         <option value="Dubai">
         <option value="Abu Dhabi">

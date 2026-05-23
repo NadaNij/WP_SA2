@@ -1,12 +1,12 @@
 
 nav a:first-child {
-  margin-left: 150px; /* adjust as needed */
+  margin-left: 150px; 
 }
 nav a {
-  margin: 0 15px;
+  margin: 0 15px; 
 }
 #NaosuLogo{
-   float:left ; /*Moving the image to the right*/
+   float:left ; 
    margin-top: 0px;
    width:76px;
    height: 38px;
@@ -19,7 +19,7 @@ nav a {
   background-color: #E19D5E;
   padding: 20px;
   gap: 50px;
-  object-fit: fill;
+  object-fit: fill; /*Stretches the block to fill its box*/
   width: 100%;
 }
 .HeadingSection video{
@@ -82,7 +82,7 @@ audio{
 }
 .BlogandForm {
     display: flex;
-    align-items: center;
+    align-items: center; /*Aligning the blog and form to the centre*/
     gap: 20px;
 }
 .SearchBtn{

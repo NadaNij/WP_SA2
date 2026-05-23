@@ -1,9 +1,9 @@
 #HomeIcon{
-   float:left ; /*Moving the image to the right*/
+   float:left ; /*Moving the icon to the left*/
    margin-top: 0px;
    width:38px;
    height: 38px;
-   margin-top: -10px;
+   margin-top: -10px; /*Moving the icon to upwards*/
 }
 
 #SearchIcon2{
@@ -32,10 +32,10 @@ p{
 .ManageAppointmentsButton{
     background-color: #8F0000;
     color: white;
-    border-radius: 10px;
+    border-radius: 10px;  /*Curving the edges */
     font-size: 16px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 20px; /*10px for the top and bottm padding,20px for the left and right padding*/
     text-decoration: none;
     text-align: center;
     
@@ -43,9 +43,11 @@ p{
 
 .SearchAndManage{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Stacking as a row*/
     gap: 50%;
 }
+
+/*Creating hover over the manage appointments button*/
 .ManageAppointmentsButton:hover{
     background-color: #6B0000;
 }

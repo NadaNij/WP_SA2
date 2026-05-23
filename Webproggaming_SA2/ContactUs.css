@@ -1,5 +1,5 @@
 #HomeIcon{
-   float:left ; /*Moving the image to the right*/
+   float:left ; 
    margin-top: 0px;
    width:38px;
    height: 38px;
@@ -42,7 +42,7 @@ p{
     margin-bottom: -4px;
 }
 .Bottom-bar{
- position: fixed;
+ position: fixed; /*anchoring the footer down*/
  bottom: 0;
  width: 100%;
 }
