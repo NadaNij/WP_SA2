@@ -1,0 +1,83 @@
+/* Styles only the header with this class */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav a:first-child {
+  margin-left: 150px; /* adjust as needed */
+}
+nav a {
+  margin: 0 15px;
+}
+.Top-bar { 
+background-color: rgb(242, 219, 129); 
+padding: 20px; 
+width:100%;
+}
+
+#SearchIcon {
+    float:right;
+    width:20px;
+    height:20px;
+    margin-top: -15px;
+}
+body {
+  background-color:#EDC590; /* replace with your color */
+}
+.MyAcc{
+    display:flex;
+    flex-direction: column;
+}
+.AboutUs{
+    display:flex;
+    flex-direction: column;
+    margin-left:425px ;
+    margin-top: -53px;
+}
+ /* Styles only the footer with this class */ 
+.Bottom-bar { 
+background-color: hsl(48, 81%, 73%);
+text-align: left;
+padding: 15px;
+}
+
+#SocialMedia{
+  float:right;
+  margin-top: -70px;
+  height:30%;
+  width: 60%;
+}
+
+/* ===== TABLET (768px and below) ===== */
+@media (max-width: 768px) {
+
+  /* NAVIGATION */
+  nav {
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  /* SPECIALITIES GRID - 2 columns instead of 3 */
+  .SpecialitiesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+
+  /* BLOG GRID - 2 columns */
+  .BlogGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+
+  /* SPECIALITY BUTTONS */
+  .SpecialityButton {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+}
+
+
+

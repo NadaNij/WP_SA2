@@ -1,0 +1,36 @@
+#HomeIcon{
+   float:left ; /*Moving the image to the right*/
+   margin-top: 0px;
+   width:38px;
+   height: 38px;
+   margin-top: -10px;
+}
+
+body {
+    background-color: #E19D5E;
+}
+.StoryBox {
+    background-color: antiquewhite;
+    text-align: center;
+    width: 60%;          
+    margin: auto;         /*Centres the box*/
+    border-radius: 20px;  /*Curving the edges of the box*/
+    padding: 20px; 
+    margin-top: 30px;      
+}
+
+h1 {
+    color: #ce5900;
+}
+
+p {
+    font-size: 23px;
+    
+    color:black;
+   line-height:  1.6;
+}
+.Bottom-bar{
+position: fixed;
+bottom: 0;
+width: 100%;
+}

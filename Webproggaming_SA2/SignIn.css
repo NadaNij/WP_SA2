@@ -1,0 +1,32 @@
+#HomeIcon{
+   float:left ; /*Moving the image to the right*/
+   margin-top: 0px;
+   width:38px;
+   height: 38px;
+   margin-top: -10px;
+}
+
+form{
+    margin-left: 30%;
+}
+
+form h3{
+    color: #8F0000;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+form input{
+    
+    height: 50px;
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+}
+.Bottom-bar{
+position: fixed;
+bottom: 0;
+width: 100%;
+}

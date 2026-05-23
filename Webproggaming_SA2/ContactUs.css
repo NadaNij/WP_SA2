@@ -1,0 +1,48 @@
+#HomeIcon{
+   float:left ; /*Moving the image to the right*/
+   margin-top: 0px;
+   width:38px;
+   height: 38px;
+   margin-top: -10px;
+}
+
+
+p{
+    color: #F21F1F;
+    font-size: larger;
+    
+}
+
+#Phonecall{
+    width: 400px;
+    height: 300px ;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+.ContactInfo{
+    display: flex;
+    margin-top: 15px;
+}
+
+.Part1{
+    margin-left: 20px;
+}
+.Part2{
+    margin-left: 200px;
+}
+#CallIcon{
+    height: 20px;
+    width: 20px;
+    margin-bottom: -4px;
+}
+
+#MailIcon{
+    height: 20px;
+    width: 20px;
+    margin-bottom: -4px;
+}
+.Bottom-bar{
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
