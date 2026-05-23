@@ -1,11 +1,11 @@
-/* Styles only the header with this class */
+
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Setting exact value of padding*/
 }
 nav a:first-child {
-  margin-left: 150px; /* adjust as needed */
+  margin-left: 150px; 
 }
 nav a {
   margin: 0 15px;
@@ -23,7 +23,7 @@ width:100%;
     margin-top: -15px;
 }
 body {
-  background-color:#EDC590; /* replace with your color */
+  background-color:#EDC590; 
 }
 .MyAcc{
     display:flex;
@@ -48,36 +48,4 @@ padding: 15px;
   height:30%;
   width: 60%;
 }
-
-/* ===== TABLET (768px and below) ===== */
-@media (max-width: 768px) {
-
-  /* NAVIGATION */
-  nav {
-    gap: 10px;
-    font-size: 12px;
-  }
-
-  /* SPECIALITIES GRID - 2 columns instead of 3 */
-  .SpecialitiesGrid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 20px;
-  }
-
-  /* BLOG GRID - 2 columns */
-  .BlogGrid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 20px;
-  }
-
-  /* SPECIALITY BUTTONS */
-  .SpecialityButton {
-    font-size: 12px;
-    padding: 15px 20px;
-  }
-}
-
-
 
